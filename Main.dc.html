@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Portfolio - HR Operations</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Manrope:wght@600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#ffffff}
+html{scroll-behavior:smooth}
+a{color:inherit;text-decoration:none}
+a:focus-visible{outline:3px solid #0f766e;outline-offset:3px;border-radius:6px}
+.on-dark a:focus-visible{outline-color:#5eead4}
+.nav-link:hover{color:#ffffff}
+.btn-solid:hover{background:#99f6e4}
+.btn-ghost:hover{border-color:#5eead4;color:#5eead4}
+.contact-row:hover{border-color:#5eead4}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+</style>
+</helmet>
+<div style="font-family: Inter, system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 16px; line-height: 1.6; color: #1c2433; background: #ffffff">
+
+<header id="top" class="on-dark" style="position: relative; overflow: hidden; background: #0b1220; color: #ffffff">
+<div aria-hidden="true" style="position: absolute; top: -220px; right: -140px; width: 560px; height: 560px; border: 1px solid rgba(94,234,212,0.20); border-radius: 50%"></div>
+<div aria-hidden="true" style="position: absolute; top: -120px; right: -40px; width: 360px; height: 360px; border: 1px solid rgba(94,234,212,0.14); border-radius: 50%"></div>
+<div style="position: relative; max-width: 1160px; margin: 0 auto; padding: 0 24px 112px; box-sizing: border-box">
+
+<nav aria-label="Primary" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; padding: 20px 0">
+<a href="#top" style="display: inline-flex; align-items: center; gap: 12px; min-height: 44px; color: #ffffff">
+<span aria-hidden="true" style="display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 10px; background: #5eead4; color: #0b1220; font-family: Manrope, Inter, sans-serif; font-size: 16px; font-weight: 800">EV</span>
+<span style="font-size: 16px; font-weight: 600">[Your Full Name]</span>
+</a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px">
+<a class="nav-link" href="#about" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px; box-sizing: border-box; font-size: 15px; font-weight: 500; color: #c3cddc">About</a>
+<a class="nav-link" href="#expertise" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px; box-sizing: border-box; font-size: 15px; font-weight: 500; color: #c3cddc">Expertise</a>
+<a class="nav-link" href="#experience" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px; box-sizing: border-box; font-size: 15px; font-weight: 500; color: #c3cddc">Experience</a>
+<a class="nav-link" href="#clients" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px; box-sizing: border-box; font-size: 15px; font-weight: 500; color: #c3cddc">Clients</a>
+<a class="nav-link" href="#toolkit" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px; box-sizing: border-box; font-size: 15px; font-weight: 500; color: #c3cddc">Toolkit</a>
+<a class="btn-solid" href="#contact" style="display: inline-flex; align-items: center; min-height: 44px; margin-left: 8px; padding: 0 20px; box-sizing: border-box; border-radius: 999px; background: #5eead4; color: #0b1220; font-size: 15px; font-weight: 700">Get in touch</a>
+</div>
+</nav>
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 48px; padding-top: 48px">
+<div style="flex: 1 1 560px; min-width: 0">
+<p style="margin: 0 0 16px; font-family: Manrope, Inter, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #5eead4">HR Operations · Talent Acquisition</p>
+<h1 style="margin: 0 0 20px; max-width: 720px; font-family: Manrope, Inter, sans-serif; font-size: clamp(34px, 4.6vw, 56px); line-height: 1.1; font-weight: 800; letter-spacing: -0.02em; color: #ffffff">Supporting HR operations from job requisition to joining formalities.</h1>
+<p style="margin: 0 0 32px; max-width: 620px; font-size: 18px; line-height: 1.6; color: #c3cddc">Based in Hyderabad, Telangana, with 8+ years of experience supporting day-to-day HR operations, HR documentation and reporting, and offer management, in coordination with employees, hiring managers, and internal teams.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a class="btn-solid" href="#contact" style="display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 26px; box-sizing: border-box; border-radius: 999px; background: #5eead4; color: #0b1220; font-size: 16px; font-weight: 700">Get in touch</a>
+<a class="btn-ghost" href="#experience" style="display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 26px; box-sizing: border-box; border-radius: 999px; border: 1px solid rgba(255,255,255,0.35); color: #ffffff; font-size: 16px; font-weight: 600">View experience</a>
+</div>
+</div>
+
+<aside aria-label="Profile summary" style="flex: 0 1 400px; min-width: 0; box-sizing: border-box; padding: 28px; border-radius: 20px; background: #131f35; border: 1px solid rgba(255,255,255,0.12)">
+<div style="display: flex; align-items: center; gap: 16px">
+<span aria-hidden="true" style="display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 64px; height: 64px; border-radius: 16px; background: #5eead4; color: #0b1220; font-family: Manrope, Inter, sans-serif; font-size: 24px; font-weight: 800">EV</span>
+<div style="min-width: 0">
+<p style="margin: 0; font-family: Manrope, Inter, sans-serif; font-size: 19px; line-height: 1.3; font-weight: 800; color: #ffffff">[Your Full Name]</p>
+<p style="margin: 2px 0 0; font-size: 14px; line-height: 1.4; color: #aab6c8">HR Operations and Talent Acquisition Professional</p>
+</div>
+</div>
+<dl style="display: flex; flex-direction: column; gap: 16px; margin: 24px 0 0; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.12)">
+<div>
+<dt style="font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #aab6c8">Location</dt>
+<dd style="margin: 4px 0 0; font-size: 15px; color: #ffffff">Hyderabad, Telangana</dd>
+</div>
+<div>
+<dt style="font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #aab6c8">Experience</dt>
+<dd style="margin: 4px 0 0; font-size: 15px; color: #ffffff">8+ years total · 6 years in IT recruitment</dd>
+</div>
+<div>
+<dt style="font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #aab6c8">Focus</dt>
+<dd style="margin: 4px 0 0; font-size: 15px; color: #ffffff">HR documentation and reporting, offer management, coordination with employees and internal teams</dd>
+</div>
+<div>
+<dt style="font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #aab6c8">Systems</dt>
+<dd style="margin: 4px 0 0; font-size: 15px; color: #ffffff">SuccessFactors · Talent Recruit · SAP Fieldglass · MS Office · Google Workspace</dd>
+</div>
+</dl>
+</aside>
+</div>
+
+</div>
+</header>
+
+<main>
+
+<div style="position: relative; max-width: 1160px; margin: -56px auto 0; padding: 0 24px; box-sizing: border-box">
+<div style="display: flex; flex-wrap: wrap; gap: 1px; overflow: hidden; border: 1px solid #e2e8f0; border-radius: 16px; background: #e2e8f0; box-shadow: 0 12px 32px rgba(11,18,32,0.12)">
+<div style="flex: 1 1 200px; box-sizing: border-box; padding: 24px 28px; background: #ffffff">
+<p style="margin: 0; font-family: Manrope, Inter, sans-serif; font-size: 40px; line-height: 1; font-weight: 800; color: #0f766e">8+</p>
+<p style="margin: 8px 0 0; font-size: 14px; line-height: 1.4; color: #475569">Years of total experience</p>
+</div>
+<div style="flex: 1 1 200px; box-sizing: border-box; padding: 24px 28px; background: #ffffff">
+<p style="margin: 0; font-family: Manrope, Inter, sans-serif; font-size: 40px; line-height: 1; font-weight: 800; color: #0f766e">6</p>
+<p style="margin: 8px 0 0; font-size: 14px; line-height: 1.4; color: #475569">Years in IT recruitment</p>
+</div>
+<div style="flex: 1 1 200px; box-sizing: border-box; padding: 24px 28px; background: #ffffff">
+<p style="margin: 0; font-family: Manrope, Inter, sans-serif; font-size: 40px; line-height: 1; font-weight: 800; color: #0f766e">2+</p>
+<p style="margin: 8px 0 0; font-size: 14px; line-height: 1.4; color: #475569">Years in non-IT recruitment</p>
+</div>
+<div style="flex: 1 1 200px; box-sizing: border-box; padding: 24px 28px; background: #ffffff">
+<p style="margin: 0; font-family: Manrope, Inter, sans-serif; font-size: 40px; line-height: 1; font-weight: 800; color: #0f766e">5</p>
+<p style="margin: 8px 0 0; font-size: 14px; line-height: 1.4; color: #475569">Employers in recruitment and HR roles</p>
+</div>
+</div>
+</div>
+
+<section id="about" style="padding: 88px 0">
+<div style="display: flex; flex-wrap: wrap; gap: 32px 64px; max-width: 1160px; margin: 0 auto; padding: 0 24px; box-sizing: border-box">
+<div style="flex: 1 1 280px; max-width: 360px; min-width: 0">
+<p style="margin: 0 0 10px; font-family: Manrope, Inter, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #0f766e">About</p>
+<h2 style="margin: 0; font-family: Manrope, Inter, sans-serif; font-size: clamp(28px, 3.2vw, 38px); line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; color: #0b1220">Hiring experience that carries into HR operations.</h2>
+</div>
+<div style="flex: 2 1 480px; min-width: 0">
+<p style="margin: 0 0 18px; font-size: 17px; line-height: 1.7; color: #334155">HR operations and recruitment professional with 8+ years of total experience, including 6 years in IT recruitment and 2+ years in non-IT recruitment. Experienced in supporting day-to-day HR operations, HR documentation and reporting, and offer management, from job requisition to joining formalities, for top companies and startups.</p>
+<p style="margin: 0 0 24px; font-size: 17px; line-height: 1.7; color: #334155">Delivery record across clients including Capgemini Invent, Optum Global Solutions (UHG), Wal-Mart, Philips, Black Rock, Hitachi, Cleveland Clinic, Anthem NGS, and Nuance, spanning healthcare, retail, financial services, manufacturing, and technology. Successfully placed candidates in IT and non-IT roles, including DevOps Engineers, Data Engineers, and Cloud Architects, while ensuring high client satisfaction and meeting tight deadlines.</p>
+<p style="margin: 0 0 12px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #475569">Strengths</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="padding: 8px 14px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">HR documentation and reporting</span>
+<span style="padding: 8px 14px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Offer management</span>
+<span style="padding: 8px 14px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Coordination with employees and internal teams</span>
+<span style="padding: 8px 14px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Communication and interpersonal skills</span>
+<span style="padding: 8px 14px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Organizational skills</span>
+<span style="padding: 8px 14px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">MS Office and Google Workspace</span>
+</div>
+</div>
+</div>
+</section>
+
+<section id="expertise" style="padding: 88px 0; background: #f3f6fa">
+<div style="max-width: 1160px; margin: 0 auto; padding: 0 24px; box-sizing: border-box">
+<p style="margin: 0 0 10px; font-family: Manrope, Inter, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #0f766e">Expertise</p>
+<h2 style="margin: 0; max-width: 640px; font-family: Manrope, Inter, sans-serif; font-size: clamp(28px, 3.2vw, 38px); line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; color: #0b1220">What I bring to an HR operations team</h2>
+<p style="margin: 14px 0 40px; max-width: 640px; font-size: 17px; line-height: 1.6; color: #475569">Skills grouped the way HR operations work gets done: documentation, offers, coordination, communication, and organization.</p>
+
+<div style="display: flex; flex-wrap: wrap; gap: 24px">
+
+<article style="flex: 1 1 320px; min-width: 0; box-sizing: border-box; padding: 28px; border: 1px solid #e2e8f0; border-radius: 16px; background: #ffffff">
+<span aria-hidden="true" style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 12px; background: #e6f4f1">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0f766e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"></path><path d="M14 3v5h5"></path><path d="M10 13h6M10 17h6"></path></svg>
+</span>
+<h3 style="margin: 18px 0 8px; font-family: Manrope, Inter, sans-serif; font-size: 18px; line-height: 1.3; font-weight: 700; color: #0b1220">HR Documentation and Reporting</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #475569">Joining formalities and documentation, documentation compliance, candidate tracking and status updates, market intelligence, and ATS/SuccessFactors tracking.</p>
+</article>
+
+<article style="flex: 1 1 320px; min-width: 0; box-sizing: border-box; padding: 28px; border: 1px solid #e2e8f0; border-radius: 16px; background: #ffffff">
+<span aria-hidden="true" style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 12px; background: #e6f4f1">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0f766e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M8 12.5l3 3 5-6"></path></svg>
+</span>
+<h3 style="margin: 18px 0 8px; font-family: Manrope, Inter, sans-serif; font-size: 18px; line-height: 1.3; font-weight: 700; color: #0b1220">Offer Management</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #475569">Offer roll-outs, salary negotiation, offer finalization, and joining process management through ATS and SuccessFactors.</p>
+</article>
+
+<article style="flex: 1 1 320px; min-width: 0; box-sizing: border-box; padding: 28px; border: 1px solid #e2e8f0; border-radius: 16px; background: #ffffff">
+<span aria-hidden="true" style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 12px; background: #e6f4f1">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0f766e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"></circle><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"></path><circle cx="17" cy="9" r="2.4"></circle><path d="M17 14.2c2.4 0 4 1.8 4 4.3"></path></svg>
+</span>
+<h3 style="margin: 18px 0 8px; font-family: Manrope, Inter, sans-serif; font-size: 18px; line-height: 1.3; font-weight: 700; color: #0b1220">Coordination</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #475569">Coordination with employees and internal teams, hiring managers, and client HR, plus interview panel coordination and scheduling.</p>
+</article>
+
+<article style="flex: 1 1 320px; min-width: 0; box-sizing: border-box; padding: 28px; border: 1px solid #e2e8f0; border-radius: 16px; background: #ffffff">
+<span aria-hidden="true" style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 12px; background: #e6f4f1">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0f766e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H10l-6 4V5z"></path></svg>
+</span>
+<h3 style="margin: 18px 0 8px; font-family: Manrope, Inter, sans-serif; font-size: 18px; line-height: 1.3; font-weight: 700; color: #0b1220">Communication and Interpersonal Skills</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #475569">Candidate experience, timely feedback and updates, and rapport building with candidates, past applicants, and clients.</p>
+</article>
+
+<article style="flex: 1 1 320px; min-width: 0; box-sizing: border-box; padding: 28px; border: 1px solid #e2e8f0; border-radius: 16px; background: #ffffff">
+<span aria-hidden="true" style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 12px; background: #e6f4f1">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0f766e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
+</span>
+<h3 style="margin: 18px 0 8px; font-family: Manrope, Inter, sans-serif; font-size: 18px; line-height: 1.3; font-weight: 700; color: #0b1220">Organization and Time Management</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #475569">Meeting tight deadlines in fast-paced environments, with data-driven hiring strategies and structured tracking of candidate progress.</p>
+</article>
+
+<article style="flex: 1 1 320px; min-width: 0; box-sizing: border-box; padding: 28px; border: 1px solid #e2e8f0; border-radius: 16px; background: #ffffff">
+<span aria-hidden="true" style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 12px; background: #e6f4f1">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0f766e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 0 1 13.7-5.7L20 8"></path><path d="M20 4v4h-4"></path><path d="M20 12a8 8 0 0 1-13.7 5.7L4 16"></path><path d="M4 20v-4h4"></path></svg>
+</span>
+<h3 style="margin: 18px 0 8px; font-family: Manrope, Inter, sans-serif; font-size: 18px; line-height: 1.3; font-weight: 700; color: #0b1220">Full-Cycle Recruitment</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #475569">End-to-end IT and non-IT recruitment from requisition to onboarding, bulk and campus hiring, and Boolean and X-Ray sourcing.</p>
+</article>
+
+</div>
+</div>
+</section>
+
+<section id="experience" style="padding: 88px 0">
+<div style="max-width: 1160px; margin: 0 auto; padding: 0 24px; box-sizing: border-box">
+<p style="margin: 0 0 10px; font-family: Manrope, Inter, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #0f766e">Experience</p>
+<h2 style="margin: 0 0 40px; font-family: Manrope, Inter, sans-serif; font-size: clamp(28px, 3.2vw, 38px); line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; color: #0b1220">Where I have done the work</h2>
+
+<div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 12px 48px; padding: 32px 0; border-top: 1px solid #e2e8f0">
+<div style="flex: 0 1 200px; min-width: 0">
+<p style="margin: 0; font-family: Manrope, Inter, sans-serif; font-size: 15px; font-weight: 700; color: #0f766e">Aug 2022 – Apr 2023</p>
+<p style="margin: 4px 0 0; font-size: 14px; color: #475569">Hyderabad, Telangana</p>
+</div>
+<div style="flex: 1 1 480px; min-width: 0">
+<h3 style="margin: 0; font-family: Manrope, Inter, sans-serif; font-size: 22px; line-height: 1.25; font-weight: 800; color: #0b1220">StratSol Software Systems Pvt Ltd.</h3>
+<p style="margin: 4px 0 0; font-size: 16px; font-weight: 600; color: #1c2433">Senior Domestic IT Recruiter — Talent Acquisition</p>
+<ul style="margin: 14px 0 0; padding-left: 20px; font-size: 15.5px; color: #334155">
+<li style="margin-bottom: 6px">Collaborated with hiring managers, leads, and client HR to understand staffing needs and analyze job requirements for Internal, Nuance, Cleveland Clinic, and Anthem NGS.</li>
+<li style="margin-bottom: 6px">Ensured timely offer roll-outs via ATS, conducted salary negotiations, and finalized offers.</li>
+<li style="margin-bottom: 6px">Supported joining formalities and documentation, and maintained positive candidate experiences by providing updates and building rapport.</li>
+</ul>
+</div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 12px 48px; padding: 32px 0; border-top: 1px solid #e2e8f0">
+<div style="flex: 0 1 200px; min-width: 0">
+<p style="margin: 0; font-family: Manrope, Inter, sans-serif; font-size: 15px; font-weight: 700; color: #0f766e">Feb 2021 – May 2022</p>
+<p style="margin: 4px 0 0; font-size: 14px; color: #475569">Hyderabad, Telangana</p>
+</div>
+<div style="flex: 1 1 480px; min-width: 0">
+<h3 style="margin: 0; font-family: Manrope, Inter, sans-serif; font-size: 22px; line-height: 1.25; font-weight: 800; color: #0b1220">Capgemini Invent (Scalene Works People Solutions)</h3>
+<p style="margin: 4px 0 0; font-size: 16px; font-weight: 600; color: #1c2433">Senior IT Recruiter — Talent Acquisition</p>
+<ul style="margin: 14px 0 0; padding-left: 20px; font-size: 15.5px; color: #334155">
+<li style="margin-bottom: 6px">Partnered with hiring managers and clients to define requirements and execute full-cycle recruitment for IT and non-IT roles.</li>
+<li style="margin-bottom: 6px">Coordinated with interview panels, negotiated salaries, managed offers, and facilitated onboarding while meeting deadlines in a fast-paced environment.</li>
+<li style="margin-bottom: 6px">Provided market intelligence, talent mapping, and updates to candidates for enhanced experiences.</li>
+</ul>
+</div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 12px 48px; padding: 32px 0; border-top: 1px solid #e2e8f0">
+<div style="flex: 0 1 200px; min-width: 0">
+<p style="margin: 0; font-family: Manrope, Inter, sans-serif; font-size: 15px; font-weight: 700; color: #0f766e">Nov 2019 – Nov 2020</p>
+<p style="margin: 4px 0 0; font-size: 14px; color: #475569">Hyderabad, Telangana</p>
+</div>
+<div style="flex: 1 1 480px; min-width: 0">
+<h3 style="margin: 0; font-family: Manrope, Inter, sans-serif; font-size: 22px; line-height: 1.25; font-weight: 800; color: #0b1220">Mindpool Technologies Ltd.</h3>
+<p style="margin: 4px 0 0; font-size: 16px; font-weight: 600; color: #1c2433">Senior IT Recruiter</p>
+<ul style="margin: 14px 0 0; padding-left: 20px; font-size: 15.5px; color: #334155">
+<li style="margin-bottom: 6px">Analyzed job requisitions and planned sourcing strategies to acquire top talent via portals, networks, and referrals.</li>
+<li style="margin-bottom: 6px">Tracked progress, negotiated offers, and ensured documentation compliance for selected candidates.</li>
+<li style="margin-bottom: 6px">Managed clients such as Team F1 Networks (D-Link), Saint Gobain, ATSG, Godrej Infotech, Hilti Corporation, Iconcept, PurpleTalk, Global Data, Zeta Global, and Next Education.</li>
+</ul>
+</div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 12px 48px; padding: 32px 0; border-top: 1px solid #e2e8f0">
+<div style="flex: 0 1 200px; min-width: 0">
+<p style="margin: 0; font-family: Manrope, Inter, sans-serif; font-size: 15px; font-weight: 700; color: #0f766e">Jul 2018 – Sep 2019</p>
+<p style="margin: 4px 0 0; font-size: 14px; color: #475569">Hyderabad, Telangana</p>
+</div>
+<div style="flex: 1 1 480px; min-width: 0">
+<h3 style="margin: 0; font-family: Manrope, Inter, sans-serif; font-size: 22px; line-height: 1.25; font-weight: 800; color: #0b1220">Magna Infotech Pvt Ltd. (Quess Corp Ltd.)</h3>
+<p style="margin: 4px 0 0; font-size: 16px; font-weight: 600; color: #1c2433">Recruitment Consultant — IT Staffing (C2H)</p>
+<ul style="margin: 14px 0 0; padding-left: 20px; font-size: 15.5px; color: #334155">
+<li style="margin-bottom: 6px">Handled interview coordination, offer management, salary negotiations, and joining processes.</li>
+<li style="margin-bottom: 6px">Sourced and screened candidates using job portals, social media, and professional networks.</li>
+<li style="margin-bottom: 6px">Worked with clients including Optum Global Solutions (UHG), Wal-Mart, Clifford Chance, Philips, Novozymes, Black Rock, Napier Health, and Hitachi.</li>
+</ul>
+</div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 12px 48px; padding: 32px 0; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0">
+<div style="flex: 0 1 200px; min-width: 0">
+<p style="margin: 0; font-family: Manrope, Inter, sans-serif; font-size: 15px; font-weight: 700; color: #0f766e">Feb 2014 – Mar 2018</p>
+<p style="margin: 4px 0 0; font-size: 14px; color: #475569">Hyderabad, Telangana</p>
+</div>
+<div style="flex: 1 1 480px; min-width: 0">
+<h3 style="margin: 0; font-family: Manrope, Inter, sans-serif; font-size: 22px; line-height: 1.25; font-weight: 800; color: #0b1220">Provost Solutions</h3>
+<p style="margin: 4px 0 0; font-size: 16px; font-weight: 600; color: #1c2433">HR Recruiter</p>
+<ul style="margin: 14px 0 0; padding-left: 20px; font-size: 15.5px; color: #334155">
+<li style="margin-bottom: 6px">Supported full-cycle recruitment from requisition to onboarding for IT and non-IT positions.</li>
+<li style="margin-bottom: 6px">Managed candidate pipelines, negotiations, and documentation while providing updates.</li>
+<li style="margin-bottom: 6px">Demonstrated strong communication, organizational, and time management skills in fast-paced settings.</li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="clients" style="padding: 88px 0; background: #f3f6fa">
+<div style="max-width: 1160px; margin: 0 auto; padding: 0 24px; box-sizing: border-box">
+<p style="margin: 0 0 10px; font-family: Manrope, Inter, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #0f766e">Clients</p>
+<h2 style="margin: 0 0 40px; max-width: 640px; font-family: Manrope, Inter, sans-serif; font-size: clamp(28px, 3.2vw, 38px); line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; color: #0b1220">Enterprise and global MNC experience</h2>
+
+<div style="display: flex; flex-wrap: wrap; gap: 24px">
+
+<div style="flex: 1 1 340px; min-width: 0; box-sizing: border-box; padding: 24px; border: 1px solid #e2e8f0; border-radius: 16px; background: #ffffff">
+<h3 style="margin: 0 0 14px; font-family: Manrope, Inter, sans-serif; font-size: 16px; line-height: 1.3; font-weight: 700; color: #0b1220">Healthcare &amp; Life Sciences</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">UnitedHealth Group (Optum)</span>
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Cleveland Clinic</span>
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Anthem NGS</span>
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Nuance</span>
+</div>
+</div>
+
+<div style="flex: 1 1 340px; min-width: 0; box-sizing: border-box; padding: 24px; border: 1px solid #e2e8f0; border-radius: 16px; background: #ffffff">
+<h3 style="margin: 0 0 14px; font-family: Manrope, Inter, sans-serif; font-size: 16px; line-height: 1.3; font-weight: 700; color: #0b1220">Retail &amp; Consumer Goods</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Walmart</span>
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Zeta Global</span>
+</div>
+</div>
+
+<div style="flex: 1 1 340px; min-width: 0; box-sizing: border-box; padding: 24px; border: 1px solid #e2e8f0; border-radius: 16px; background: #ffffff">
+<h3 style="margin: 0 0 14px; font-family: Manrope, Inter, sans-serif; font-size: 16px; line-height: 1.3; font-weight: 700; color: #0b1220">Financial Services</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">BlackRock</span>
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">BFSI clients via Capgemini Invent</span>
+</div>
+</div>
+
+<div style="flex: 1 1 340px; min-width: 0; box-sizing: border-box; padding: 24px; border: 1px solid #e2e8f0; border-radius: 16px; background: #ffffff">
+<h3 style="margin: 0 0 14px; font-family: Manrope, Inter, sans-serif; font-size: 16px; line-height: 1.3; font-weight: 700; color: #0b1220">Technology &amp; Consulting</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Capgemini Invent</span>
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">D-Link (Team F1 Networks)</span>
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Hitachi</span>
+</div>
+</div>
+
+<div style="flex: 1 1 340px; min-width: 0; box-sizing: border-box; padding: 24px; border: 1px solid #e2e8f0; border-radius: 16px; background: #ffffff">
+<h3 style="margin: 0 0 14px; font-family: Manrope, Inter, sans-serif; font-size: 16px; line-height: 1.3; font-weight: 700; color: #0b1220">Industrial &amp; Engineering</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Philips</span>
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Saint Gobain</span>
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Godrej Infotech</span>
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Hilti Corporation</span>
+</div>
+</div>
+
+<div style="flex: 1 1 340px; min-width: 0; box-sizing: border-box; padding: 24px; border: 1px solid #e2e8f0; border-radius: 16px; background: #ffffff">
+<h3 style="margin: 0 0 14px; font-family: Manrope, Inter, sans-serif; font-size: 16px; line-height: 1.3; font-weight: 700; color: #0b1220">Automotive &amp; Manufacturing</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Capgemini Invent Automotive &amp; Manufacturing Practices</span>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="toolkit" style="padding: 88px 0">
+<div style="max-width: 1160px; margin: 0 auto; padding: 0 24px; box-sizing: border-box">
+<p style="margin: 0 0 10px; font-family: Manrope, Inter, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #0f766e">Toolkit</p>
+<h2 style="margin: 0 0 40px; max-width: 640px; font-family: Manrope, Inter, sans-serif; font-size: clamp(28px, 3.2vw, 38px); line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; color: #0b1220">Tools, platforms, and roles hired</h2>
+
+<div style="display: flex; flex-wrap: wrap; gap: 40px 64px">
+
+<div style="flex: 1 1 420px; min-width: 0">
+<h3 style="margin: 0 0 20px; font-family: Manrope, Inter, sans-serif; font-size: 20px; line-height: 1.3; font-weight: 800; color: #0b1220">Tools and platforms</h3>
+
+<p style="margin: 0 0 10px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #475569">ATS and HR systems</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px">
+<span style="padding: 6px 12px; border: 1px solid #d5dde8; border-radius: 999px; background: #f3f6fa; color: #1c2433; font-size: 14px; font-weight: 500">Talent Recruit</span>
+<span style="padding: 6px 12px; border: 1px solid #d5dde8; border-radius: 999px; background: #f3f6fa; color: #1c2433; font-size: 14px; font-weight: 500">SuccessFactors</span>
+<span style="padding: 6px 12px; border: 1px solid #d5dde8; border-radius: 999px; background: #f3f6fa; color: #1c2433; font-size: 14px; font-weight: 500">SAP Fieldglass</span>
+</div>
+
+<p style="margin: 0 0 10px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #475569">Recruitment platforms</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px">
+<span style="padding: 6px 12px; border: 1px solid #d5dde8; border-radius: 999px; background: #f3f6fa; color: #1c2433; font-size: 14px; font-weight: 500">LinkedIn Recruiter</span>
+<span style="padding: 6px 12px; border: 1px solid #d5dde8; border-radius: 999px; background: #f3f6fa; color: #1c2433; font-size: 14px; font-weight: 500">Naukri Recruiter</span>
+<span style="padding: 6px 12px; border: 1px solid #d5dde8; border-radius: 999px; background: #f3f6fa; color: #1c2433; font-size: 14px; font-weight: 500">Naukri</span>
+<span style="padding: 6px 12px; border: 1px solid #d5dde8; border-radius: 999px; background: #f3f6fa; color: #1c2433; font-size: 14px; font-weight: 500">Monster</span>
+<span style="padding: 6px 12px; border: 1px solid #d5dde8; border-radius: 999px; background: #f3f6fa; color: #1c2433; font-size: 14px; font-weight: 500">Indeed</span>
+<span style="padding: 6px 12px; border: 1px solid #d5dde8; border-radius: 999px; background: #f3f6fa; color: #1c2433; font-size: 14px; font-weight: 500">Hirist</span>
+</div>
+
+<p style="margin: 0 0 10px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #475569">Professional networks</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px">
+<span style="padding: 6px 12px; border: 1px solid #d5dde8; border-radius: 999px; background: #f3f6fa; color: #1c2433; font-size: 14px; font-weight: 500">LinkedIn</span>
+<span style="padding: 6px 12px; border: 1px solid #d5dde8; border-radius: 999px; background: #f3f6fa; color: #1c2433; font-size: 14px; font-weight: 500">GitHub</span>
+<span style="padding: 6px 12px; border: 1px solid #d5dde8; border-radius: 999px; background: #f3f6fa; color: #1c2433; font-size: 14px; font-weight: 500">Stack Overflow</span>
+</div>
+
+<p style="margin: 0 0 10px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #475569">Office tools</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="padding: 6px 12px; border: 1px solid #d5dde8; border-radius: 999px; background: #f3f6fa; color: #1c2433; font-size: 14px; font-weight: 500">MS Office</span>
+<span style="padding: 6px 12px; border: 1px solid #d5dde8; border-radius: 999px; background: #f3f6fa; color: #1c2433; font-size: 14px; font-weight: 500">Google Workspace</span>
+</div>
+</div>
+
+<div style="flex: 1 1 420px; min-width: 0">
+<h3 style="margin: 0 0 20px; font-family: Manrope, Inter, sans-serif; font-size: 20px; line-height: 1.3; font-weight: 800; color: #0b1220">Roles hired</h3>
+
+<p style="margin: 0 0 10px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #475569">Technical domain</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px">
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Software and Full Stack Developers</span>
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Web and UI/UX Designers</span>
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">QA/Test Engineers</span>
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">DevOps and Cloud Engineers</span>
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Data Engineers and Scientists</span>
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Network, System, and Security Engineers</span>
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">CRM/ERP Developers</span>
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Database Developers/DBAs</span>
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Architects</span>
+</div>
+
+<p style="margin: 0 0 10px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #475569">Functional domain</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Business Analysts</span>
+<span style="padding: 6px 12px; border-radius: 999px; background: #e6f4f1; color: #0b4f49; font-size: 14px; font-weight: 600">Functional Consultants</span>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="education" style="padding: 72px 0; background: #f3f6fa">
+<div style="max-width: 1160px; margin: 0 auto; padding: 0 24px; box-sizing: border-box">
+<p style="margin: 0 0 10px; font-family: Manrope, Inter, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #0f766e">Education and training</p>
+<h2 style="margin: 0 0 32px; font-family: Manrope, Inter, sans-serif; font-size: clamp(28px, 3.2vw, 38px); line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; color: #0b1220">Foundations</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 24px">
+<div style="flex: 1 1 340px; min-width: 0; box-sizing: border-box; padding: 24px; border: 1px solid #e2e8f0; border-radius: 16px; background: #ffffff">
+<p style="margin: 0 0 6px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #475569">Education</p>
+<h3 style="margin: 0; font-family: Manrope, Inter, sans-serif; font-size: 18px; line-height: 1.35; font-weight: 700; color: #0b1220">Bachelor of Science — B.Sc. (Computers)</h3>
+<p style="margin: 4px 0 0; font-size: 15px; color: #475569">Sri Krishnadevaraya University, Anantapur</p>
+</div>
+<div style="flex: 1 1 340px; min-width: 0; box-sizing: border-box; padding: 24px; border: 1px solid #e2e8f0; border-radius: 16px; background: #ffffff">
+<p style="margin: 0 0 6px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #475569">Training</p>
+<h3 style="margin: 0; font-family: Manrope, Inter, sans-serif; font-size: 18px; line-height: 1.35; font-weight: 700; color: #0b1220">Trained in LinkedIn Recruiter</h3>
+<p style="margin: 4px 0 0; font-size: 15px; color: #475569">LinkedIn</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="contact" class="on-dark" style="padding: 88px 0; background: #0b1220; color: #ffffff">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px 64px; max-width: 1160px; margin: 0 auto; padding: 0 24px; box-sizing: border-box">
+<div style="flex: 1 1 380px; min-width: 0">
+<p style="margin: 0 0 10px; font-family: Manrope, Inter, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #5eead4">Contact</p>
+<h2 style="margin: 0; font-family: Manrope, Inter, sans-serif; font-size: clamp(28px, 3.6vw, 44px); line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; color: #ffffff">Let us talk about how I can support your HR operations.</h2>
+<p style="margin: 16px 0 0; max-width: 520px; font-size: 17px; line-height: 1.6; color: #c3cddc">Tell me about the role or the HR process you need covered, and we can take it from there.</p>
+</div>
+<div style="flex: 1 1 380px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+
+<a class="contact-row" href="mailto:xxxxxx@gmail.com" style="display: flex; align-items: center; gap: 16px; min-height: 56px; box-sizing: border-box; padding: 12px 18px; border: 1px solid rgba(255,255,255,0.14); border-radius: 14px; background: #131f35; color: #ffffff">
+<span aria-hidden="true" style="display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 40px; height: 40px; border-radius: 10px; background: rgba(94,234,212,0.12)">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5eead4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg>
+</span>
+<span style="min-width: 0">
+<span style="display: block; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #aab6c8">Email</span>
+<span style="display: block; font-size: 16px; font-weight: 600; word-break: break-word">xxxxxx@gmail.com</span>
+</span>
+</a>
+
+<a class="contact-row" href="tel:+9181xxxxxx" style="display: flex; align-items: center; gap: 16px; min-height: 56px; box-sizing: border-box; padding: 12px 18px; border: 1px solid rgba(255,255,255,0.14); border-radius: 14px; background: #131f35; color: #ffffff">
+<span aria-hidden="true" style="display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 40px; height: 40px; border-radius: 10px; background: rgba(94,234,212,0.12)">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5eead4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2z"></path></svg>
+</span>
+<span style="min-width: 0">
+<span style="display: block; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #aab6c8">Phone</span>
+<span style="display: block; font-size: 16px; font-weight: 600">+91-81xxxxxx</span>
+</span>
+</a>
+
+<a class="contact-row" href="#contact" style="display: flex; align-items: center; gap: 16px; min-height: 56px; box-sizing: border-box; padding: 12px 18px; border: 1px solid rgba(255,255,255,0.14); border-radius: 14px; background: #131f35; color: #ffffff">
+<span aria-hidden="true" style="display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 40px; height: 40px; border-radius: 10px; background: rgba(94,234,212,0.12)">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5eead4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"></path><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"></path></svg>
+</span>
+<span style="min-width: 0">
+<span style="display: block; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #aab6c8">LinkedIn</span>
+<span style="display: block; font-size: 16px; font-weight: 600; word-break: break-word">https:xxxxx</span>
+</span>
+</a>
+
+<div style="display: flex; align-items: center; gap: 16px; min-height: 56px; box-sizing: border-box; padding: 12px 18px; border: 1px solid rgba(255,255,255,0.14); border-radius: 14px; background: #131f35; color: #ffffff">
+<span aria-hidden="true" style="display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 40px; height: 40px; border-radius: 10px; background: rgba(94,234,212,0.12)">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5eead4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>
+</span>
+<span style="min-width: 0">
+<span style="display: block; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #aab6c8">Location</span>
+<span style="display: block; font-size: 16px; font-weight: 600">Hyderabad, Telangana</span>
+</span>
+</div>
+
+</div>
+</div>
+</section>
+
+</main>
+
+<footer class="on-dark" style="background: #0b1220; border-top: 1px solid rgba(255,255,255,0.10); color: #aab6c8; font-size: 14px">
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 24px; max-width: 1160px; margin: 0 auto; padding: 24px; box-sizing: border-box">
+<span>© 2026 [Your Full Name] · HR Operations and Talent Acquisition · Hyderabad, Telangana</span>
+<a href="#top" style="display: inline-flex; align-items: center; min-height: 44px; color: #ffffff; font-weight: 600">Back to top</a>
+</div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":6500}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>
